@@ -797,9 +797,9 @@ table.compare-table tr:nth-child(even) { background: var(--grey); }
 .level-rows { max-width: 850px; margin: 0 auto; display: flex; flex-direction: column; gap: 18px; }
 .level-row {
   display: grid;
-  grid-template-columns: 64px 1fr auto;
+  grid-template-columns: 64px 1fr;
   gap: 24px;
-  align-items: center;
+  align-items: start;
   padding: 26px 28px;
   background: var(--white);
   border: 2px solid var(--gold);
@@ -824,20 +824,7 @@ table.compare-table tr:nth-child(even) { background: var(--grey); }
   box-shadow: 0 3px 10px rgba(26, 53, 80, 0.08);
 }
 .level-content h3 { margin-bottom: 6px; font-size: 1.1rem; }
-.level-content p { margin: 0; color: var(--text-muted); font-size: 0.95rem; }
-.level-action {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 10px;
-}
-.level-price {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-weight: bold;
-  color: var(--gold);
-  font-size: 1.05rem;
-  white-space: nowrap;
-}
+.level-content p { margin: 0 0 16px; color: var(--text-muted); font-size: 0.95rem; }
 .btn-small {
   padding: 9px 18px;
   font-size: 0.88rem;
@@ -902,7 +889,6 @@ blockquote.testimonial { font-size: 0.98rem; }
   .level-row { grid-template-columns: 48px 1fr; padding: 20px; }
   .level-icon-wrap { width: 48px; height: 48px; }
   .level-icon { width: 48px; height: 48px; }
-  .level-action { grid-column: 2; flex-direction: row; justify-content: space-between; align-items: center; margin-top: 12px; }
   .about-hero { grid-template-columns: 1fr; }
 }
 
