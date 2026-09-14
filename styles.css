@@ -1,8 +1,8 @@
 :root {
   --navy: #3f6f95;
   --navy-dark: #1a3550;
-  --gold: #c8912f;
-  --gold-light: #e0b567;
+  --gold: #2f9e6e;
+  --gold-light: #6fc79c;
   --grey: #f4f6f8;
   --text: #23262c;
   --text-muted: #444b53;
@@ -138,7 +138,7 @@ nav.main-nav a:hover { color: var(--gold); }
   transition: background 0.2s;
 }
 
-.btn:hover { background: #ad7a24; }
+.btn:hover { background: #24805a; }
 
 .btn-outline {
   background: transparent;
@@ -464,7 +464,7 @@ form.contact-form {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(circle at 85% 20%, rgba(200,145,47,0.22), transparent 55%);
+  background: radial-gradient(circle at 85% 20%, rgba(47,158,110,0.22), transparent 55%);
   pointer-events: none;
 }
 .cta-band .container { position: relative; }
@@ -688,7 +688,7 @@ table.compare-table tr:nth-child(even) { background: var(--grey); }
   width: 380px;
   height: 380px;
   border-radius: 50%;
-  background: radial-gradient(circle, rgba(200,145,47,0.14) 0%, rgba(200,145,47,0) 70%);
+  background: radial-gradient(circle, rgba(47,158,110,0.14) 0%, rgba(47,158,110,0) 70%);
   pointer-events: none;
 }
 
