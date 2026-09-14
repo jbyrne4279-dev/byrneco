@@ -190,6 +190,7 @@ nav.main-nav a:hover { color: var(--gold); }
 }
 
 .hero-ctas { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; }
+.hero-split-text .hero-ctas { justify-content: flex-start; }
 
 .trust-bar {
   background: var(--navy-dark);
@@ -723,31 +724,38 @@ table.compare-table tr:nth-child(even) { background: var(--grey); }
 .hero-split-inner {
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
-  gap: 56px;
+  gap: 64px;
   align-items: center;
 }
+.hero-split-text { text-align: left; }
 .hero-eyebrow {
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.9rem;
   font-weight: bold;
   text-transform: uppercase;
-  letter-spacing: 1.2px;
+  letter-spacing: 1.6px;
   color: var(--gold);
-  margin: 0 0 14px;
+  margin: 0 0 16px;
 }
 
 .hero-split-text h1 {
-  font-size: 2.6rem;
-  line-height: 1.18;
-  margin-bottom: 20px;
+  font-size: 2.7rem;
+  line-height: 1.15;
+  margin-bottom: 22px;
   color: var(--navy-dark);
+  max-width: 13.5em;
 }
 .hero-split-text p {
   color: #333b43;
-  font-size: 1.15rem;
+  font-size: 1.1rem;
   line-height: 1.65;
-  margin-bottom: 30px;
-  max-width: 46ch;
+  margin-bottom: 32px;
+  max-width: 44ch;
+}
+.hero-split-text .hero-ctas { margin-bottom: 0; }
+.hero-split-text .btn {
+  padding: 15px 32px;
+  font-size: 1.02rem;
 }
 .hero-split-image img {
   width: 100%;
@@ -765,18 +773,18 @@ table.compare-table tr:nth-child(even) { background: var(--grey); }
 
 .hero-facts {
   list-style: none;
-  padding: 22px 0 0;
-  margin: 34px 0 0;
+  padding: 24px 0 0;
+  margin: 36px 0 0;
   border-top: 1px solid #dde3e8;
   display: flex;
   flex-wrap: wrap;
-  gap: 12px 30px;
+  gap: 14px 32px;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   font-weight: 600;
   color: var(--navy-dark);
 }
-.hero-facts li { position: relative; padding-left: 22px; }
+.hero-facts li { position: relative; padding-left: 22px; display: flex; align-items: center; }
 .hero-facts li::before {
   content: "";
   position: absolute;
