@@ -692,35 +692,6 @@ table.compare-table tr:nth-child(even) { background: var(--grey); }
   background: radial-gradient(circle, rgba(47,158,110,0.14) 0%, rgba(47,158,110,0) 70%);
   pointer-events: none;
 }
-
-/* Trust strip beneath hero */
-.trust-strip {
-  background: var(--navy-dark);
-  padding: 22px 0;
-}
-.trust-strip .container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 12px 48px;
-}
-.trust-strip .trust-item {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  font-size: 0.92rem;
-  font-weight: 600;
-  color: #e7ebf0;
-  letter-spacing: 0.2px;
-}
-.trust-strip .trust-item .trust-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--gold);
-  flex-shrink: 0;
-}
 .hero-split-inner {
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
