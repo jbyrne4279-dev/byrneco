@@ -842,7 +842,7 @@ table.compare-table tr:nth-child(even) { background: var(--grey); }
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
-  border-radius: var(--radius);
+  border-radius: 0;
   display: block;
   box-shadow: 0 10px 30px rgba(26, 53, 80, 0.12);
 }
