@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" role="img" aria-labelledby="t1">
+<title id="t1">Line illustration of a row of London Victorian terraced houses</title>
+<rect width="900" height="420" fill="#eef2f5"/>
+<rect x="0" y="330" width="900" height="90" fill="#dfe6ea"/>
+<g stroke="#24445e" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <!-- house 1 -->
+  <rect x="20" y="190" width="150" height="150" fill="#ffffff"/>
+  <polygon points="20,190 95,120 170,190" fill="#3f6f95" opacity="0.15"/>
+  <rect x="45" y="230" width="30" height="40" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="115" y="230" width="30" height="40" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="72" y="290" width="26" height="50" fill="#8a97a3" opacity="0.4"/>
+  <rect x="88" y="120" width="16" height="26"/>
+  <!-- house 2 -->
+  <rect x="170" y="160" width="170" height="180" fill="#ffffff"/>
+  <polygon points="170,160 255,90 340,160" fill="#3f6f95" opacity="0.2"/>
+  <rect x="195" y="200" width="34" height="44" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="280" y="200" width="34" height="44" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="195" y="270" width="34" height="44" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="280" y="270" width="34" height="44" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="238" y="300" width="30" height="40" fill="#8a97a3" opacity="0.4"/>
+  <rect x="247" y="90" width="16" height="26"/>
+  <!-- house 3 -->
+  <rect x="340" y="185" width="155" height="155" fill="#ffffff"/>
+  <polygon points="340,185 417,115 495,185" fill="#3f6f95" opacity="0.15"/>
+  <rect x="365" y="225" width="30" height="40" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="440" y="225" width="30" height="40" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="403" y="285" width="26" height="55" fill="#8a97a3" opacity="0.4"/>
+  <rect x="409" y="115" width="16" height="26"/>
+  <!-- house 4 (wider Edwardian semi) -->
+  <rect x="495" y="150" width="200" height="190" fill="#ffffff"/>
+  <polygon points="495,150 595,75 695,150" fill="#3f6f95" opacity="0.2"/>
+  <rect x="520" y="190" width="36" height="48" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="620" y="190" width="36" height="48" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="520" y="265" width="36" height="48" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="620" y="265" width="36" height="48" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="577" y="300" width="30" height="40" fill="#8a97a3" opacity="0.4"/>
+  <rect x="587" y="75" width="16" height="30"/>
+  <!-- house 5 -->
+  <rect x="695" y="195" width="150" height="145" fill="#ffffff"/>
+  <polygon points="695,195 770,130 845,195" fill="#3f6f95" opacity="0.15"/>
+  <rect x="718" y="230" width="30" height="40" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="790" y="230" width="30" height="40" fill="#c3ccd3" opacity="0.5"/>
+  <rect x="755" y="290" width="26" height="50" fill="#8a97a3" opacity="0.4"/>
+  <rect x="762" y="130" width="16" height="26"/>
+  <!-- pavement + lamp -->
+  <line x1="0" y1="340" x2="900" y2="340"/>
+  <line x1="860" y1="340" x2="860" y2="230" />
+  <circle cx="860" cy="220" r="12" fill="#8a97a3" opacity="0.6"/>
+</g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 340" role="img" aria-labelledby="t6">
+<title id="t6">Illustration of Japanese knotweed with its distinctive zig-zag stem and heart-shaped leaves growing near a garden boundary fence</title>
+<rect width="500" height="340" fill="#eef2f5"/>
+<g stroke="#24445e" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <!-- fence -->
+  <line x1="0" y1="280" x2="500" y2="280" stroke-width="4"/>
+  <line x1="40" y1="280" x2="40" y2="180"/>
+  <line x1="90" y1="280" x2="90" y2="180"/>
+  <line x1="20" y1="200" x2="110" y2="200"/>
+  <!-- knotweed stems (zig-zag) -->
+  <path d="M220 280 L235 240 L215 210 L240 175 L220 140" stroke="#3f6f95" stroke-width="4"/>
+  <path d="M270 280 L255 235 L280 200 L258 165 L275 130" stroke="#3f6f95" stroke-width="4"/>
+  <path d="M320 280 L335 245 L312 215 L332 180 L318 150" stroke="#3f6f95" stroke-width="4"/>
+  <!-- leaves (heart/shield shapes) -->
+  <path d="M220 140 q-25 -10 -20 -35 q25 -5 30 20 Z" fill="#8a97a3" opacity="0.5"/>
+  <path d="M275 130 q-25 -10 -18 -35 q25 -5 28 22 Z" fill="#8a97a3" opacity="0.5"/>
+  <path d="M318 150 q25 -8 22 -32 q-25 -6 -30 18 Z" fill="#8a97a3" opacity="0.5"/>
+  <path d="M240 175 q22 -6 20 -28 q-22 -6 -28 14 Z" fill="#8a97a3" opacity="0.4"/>
+  <path d="M280 200 q22 -6 20 -28 q-22 -6 -28 14 Z" fill="#8a97a3" opacity="0.4"/>
+</g>
+<g fill="#24445e" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="200" y="120">Zig-zag stem growth</text>
+  <text x="15" y="165">Boundary fence</text>
+</g>
+</svg>

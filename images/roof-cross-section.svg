@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 340" role="img" aria-labelledby="t3">
+<title id="t3">Diagram of a pitched roof structure in cross-section, showing rafters, felt, tiles and loft insulation</title>
+<rect width="500" height="340" fill="#eef2f5"/>
+<g stroke="#24445e" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <polygon points="60,220 250,60 440,220" />
+  <polygon points="60,220 250,60 440,220" fill="#3f6f95" opacity="0.08"/>
+  <line x1="30" y1="220" x2="470" y2="220" stroke-width="4"/>
+  <line x1="140" y1="220" x2="140" y2="150"/>
+  <line x1="360" y1="220" x2="360" y2="150"/>
+  <line x1="250" y1="220" x2="250" y2="60"/>
+  <!-- insulation -->
+  <path d="M75 210 q15 -10 30 0 q15 -10 30 0 q15 -10 30 0 q15 -10 30 0 q15 -10 30 0 q15 -10 30 0 q15 -10 30 0" fill="none" stroke="#8a97a3" stroke-width="2.5"/>
+</g>
+<g fill="#24445e" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="255" y="55">Ridge</text>
+  <text x="380" y="140">Rafter</text>
+  <text x="355" y="235">Roof void</text>
+  <text x="80" y="235">Eaves</text>
+  <text x="150" y="200" fill="#8a97a3">Loft insulation</text>
+</g>
+</svg>

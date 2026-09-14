@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 340" role="img" aria-labelledby="t4">
+<title id="t4">Diagram of a diagonal wall crack near a window caused by subsidence, with a tree root system shown affecting the soil beneath the foundation</title>
+<rect width="500" height="340" fill="#eef2f5"/>
+<g stroke="#24445e" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="40" y="30" width="220" height="230" fill="#ffffff"/>
+  <rect x="90" y="80" width="60" height="70" fill="#c3ccd3" opacity="0.5"/>
+  <path d="M150 80 L190 260" stroke="#b3392c" stroke-width="2.5" stroke-dasharray="1 0"/>
+  <path d="M158 110 L166 108" stroke="#b3392c" stroke-width="1.5"/>
+  <path d="M164 150 L172 147" stroke="#b3392c" stroke-width="1.5"/>
+  <path d="M172 195 L180 192" stroke="#b3392c" stroke-width="1.5"/>
+  <!-- ground line -->
+  <line x1="0" y1="260" x2="500" y2="260" stroke-width="4"/>
+  <!-- tree -->
+  <line x1="400" y1="260" x2="400" y2="150" stroke-width="6"/>
+  <circle cx="400" cy="120" r="45" fill="#3f6f95" opacity="0.15"/>
+  <!-- roots -->
+  <path d="M400 260 Q360 275 300 270" stroke="#8a97a3" stroke-width="2.5"/>
+  <path d="M400 260 Q330 290 260 285" stroke="#8a97a3" stroke-width="2.5"/>
+  <path d="M400 260 Q350 300 280 305" stroke="#8a97a3" stroke-width="2.5"/>
+</g>
+<g fill="#24445e" font-family="Helvetica, Arial, sans-serif" font-size="13">
+  <text x="185" y="60">Diagonal crack</text>
+  <text x="360" y="105" fill="#3f6f95">Mature tree</text>
+  <text x="230" y="300" fill="#8a97a3">Roots drawing moisture from clay soil</text>
+</g>
+</svg>
