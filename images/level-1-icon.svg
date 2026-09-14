@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="l1t">
+<title id="l1t">Clipboard with traffic-light condition ratings, representing a Level 1 Condition Report</title>
+<rect width="120" height="120" rx="12" fill="#eef2f5"/>
+<g stroke="#24445e" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="32" y="24" width="56" height="76" rx="4" fill="#ffffff"/>
+  <rect x="48" y="18" width="24" height="12" rx="3" fill="#c3ccd3"/>
+  <line x1="42" y1="46" x2="66" y2="46"/>
+  <line x1="42" y1="58" x2="66" y2="58"/>
+  <line x1="42" y1="70" x2="60" y2="70"/>
+</g>
+<circle cx="78" cy="46" r="5.5" fill="#b3392c"/>
+<circle cx="78" cy="58" r="5.5" fill="#c9962e"/>
+<circle cx="78" cy="70" r="5.5" fill="#3c8a52"/>
+</svg>

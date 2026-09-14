@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="l3t">
+<title id="l3t">Magnifying glass over a brick wall structure, representing an in-depth Level 3 Building Survey</title>
+<rect width="120" height="120" rx="12" fill="#eef2f5"/>
+<g stroke="#24445e" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="26" y="40" width="52" height="50" fill="#ffffff"/>
+  <g stroke="#c3ccd3" stroke-width="1.5">
+    <line x1="26" y1="55" x2="78" y2="55"/>
+    <line x1="26" y1="70" x2="78" y2="70"/>
+    <line x1="40" y1="40" x2="40" y2="55"/>
+    <line x1="58" y1="40" x2="58" y2="55"/>
+    <line x1="33" y1="55" x2="33" y2="70"/>
+    <line x1="50" y1="55" x2="50" y2="70"/>
+    <line x1="67" y1="55" x2="67" y2="70"/>
+    <line x1="40" y1="70" x2="40" y2="90"/>
+    <line x1="58" y1="70" x2="58" y2="90"/>
+  </g>
+</g>
+<g stroke="#24445e" stroke-width="3.5" fill="#eef2f5" fill-opacity="0.4">
+  <circle cx="80" cy="62" r="19"/>
+  <line x1="94" y1="76" x2="106" y2="88" stroke-linecap="round"/>
+</g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" role="img" aria-labelledby="l2t">
+<title id="l2t">House with a valuation tag, representing a Level 2 HomeBuyer Report</title>
+<rect width="120" height="120" rx="12" fill="#eef2f5"/>
+<g stroke="#24445e" stroke-width="3" fill="none" stroke-linejoin="round" stroke-linecap="round">
+  <rect x="28" y="54" width="52" height="42" fill="#ffffff"/>
+  <polygon points="28,54 54,32 80,54" fill="#3f6f95" opacity="0.18"/>
+  <rect x="40" y="68" width="14" height="16" fill="#c3ccd3" opacity="0.6"/>
+  <rect x="60" y="68" width="12" height="12" fill="#c3ccd3" opacity="0.6"/>
+</g>
+<g stroke="#24445e" stroke-width="2.5" fill="#ffffff" stroke-linejoin="round">
+  <path d="M74 60 L96 60 L96 78 L86 88 L74 76 Z"/>
+  <circle cx="88" cy="67" r="3" fill="#8a97a3" stroke="none"/>
+</g>
+</svg>
