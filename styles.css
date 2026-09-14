@@ -842,7 +842,11 @@ table.compare-table tr:nth-child(even) { background: var(--grey); }
 }
 .process-image img {
   width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
   border-radius: var(--radius);
+  display: block;
+  box-shadow: 0 10px 30px rgba(26, 53, 80, 0.12);
 }
 .process-list { margin: 24px 0 0; }
 .process-list > div { margin-bottom: 20px; }
