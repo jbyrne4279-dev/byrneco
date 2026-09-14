@@ -30,6 +30,46 @@
   "mainEntityOfPage": "https://www.byrneco-surveying.co.uk/guides/loft-conversion-extension-survey.html"
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Should I get a survey before buying a property I plan to extend?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, a Level 3 Building Survey is recommended, as it identifies the existing structure's condition and any issues that could complicate or add cost to your planned works."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a survey check whether a loft conversion has building regulations approval?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We'll flag anything that looks unapproved or poorly executed, but formal building regulations and planning history checks are usually carried out by your solicitor through local authority searches."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the risk of buying a London property with an unapproved conversion?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You could inherit costs to bring the work up to standard, or issues when you come to sell, which is why flagging this before exchange matters."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can a survey help me plan renovation costs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, our Level 3 Building Survey includes repair options and cost implications, giving you a realistic starting point for budgeting extension or renovation work."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -147,6 +187,157 @@
     <a href="../contact.html" class="btn">Get Quote</a>
   </div>
 </div>
+
+<section class="alt" id="get-quote">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow">Get Started</span>
+      <h2>Ready to Book Your Survey?</h2>
+      <p>Tell us about the property and we'll come back with the right survey level within 24 hours.</p>
+    </div>
+
+    <div class="contact-wrap">
+      <div>
+        <div id="form-success" role="alert"></div>
+        <div id="form-error" role="alert"></div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <h3>Step 1: Property Details</h3>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="postcode">Postcode <span class="required">*</span></label>
+              <input type="text" id="postcode" name="postcode" placeholder="e.g. SW1A 1AA" required>
+            </div>
+            <div class="form-row">
+              <label for="property-type">Type of property <span class="required">*</span></label>
+              <select id="property-type" name="propertyType" required>
+                <option value="">- Select -</option>
+                <option value="residential">Residential</option>
+                <option value="commercial">Commercial</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="bedrooms">Number of bedrooms <span class="required">*</span></label>
+              <select id="bedrooms" name="bedrooms" required>
+                <option value="">- Select bedrooms -</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="5+">More than 5</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="survey-level">Survey level required <span class="required">*</span></label>
+              <select id="survey-level" name="surveyLevel" required>
+                <option value="">- Select survey level -</option>
+                <option value="level1">Level 1 — Condition Report</option>
+                <option value="level2">Level 2 — HomeBuyer Report</option>
+                <option value="level3">Level 3 — Building Survey</option>
+                <option value="not-sure">Not sure — please advise</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="property-value">Property value <span class="required">*</span></label>
+            <select id="property-value" name="propertyValue" required>
+              <option value="">- Select value -</option>
+              <option value="0-100000">£0 - £100,000</option>
+              <option value="100001-200000">£100,001 - £200,000</option>
+              <option value="200001-300000">£200,001 - £300,000</option>
+              <option value="300001-400000">£300,001 - £400,000</option>
+              <option value="400001-500000">£400,001 - £500,000</option>
+              <option value="500001-600000">£500,001 - £600,000</option>
+              <option value="600001-700000">£600,001 - £700,000</option>
+              <option value="700001-800000">£700,001 - £800,000</option>
+              <option value="800001-900000">£800,001 - £900,000</option>
+              <option value="900001-1000000">£900,001 - £1,000,000</option>
+              <option value="1000001-2000000">£1,000,001 - £2,000,000</option>
+              <option value="2000001-5000000">£2,000,001 - £5,000,000</option>
+              <option value="5000001+">£5,000,001 and above</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="specific-info">Specific information</label>
+            <textarea id="specific-info" name="specificInfo" placeholder="Tell us anything else about the property or your requirements (optional)"></textarea>
+          </div>
+
+          <h3>Step 2: Your Contact Details</h3>
+          <p class="form-note">Your details will only be used by Byrne &amp; Co Surveying to respond to your enquiry. Read our <a href="../privacy-policy.html">privacy policy</a>.</p>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="name">Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-row">
+              <label for="email">Email address <span class="required">*</span></label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="telephone">Telephone no. <span class="required">*</span></label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Enter 0000 if you'd rather not provide this" required>
+          </div>
+
+          <button type="submit" class="btn">Get Quote</button>
+        </form>
+      </div>
+
+      <div class="contact-info-card">
+        <h3>Need Help?</h3>
+        <div class="info-item">
+          <strong>Email</strong>
+          <a href="mailto:enquiries@byrneco-surveying.co.uk">enquiries@byrneco-surveying.co.uk</a>
+        </div>
+        <div class="info-item">
+          <strong>Coverage Area</strong>
+          <p style="color:#cfd6df; margin:0;">All London postcodes and the M25 corridor.</p>
+        </div>
+        <div class="info-item">
+          <strong>Response Time</strong>
+          <p style="color:#cfd6df; margin:0;">Within 1 working day, Mon–Fri 8am–6pm.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow">Extensions &amp; Conversions FAQs</span>
+      <h2>FAQs on Buying a London Property to Extend</h2>
+    </div>
+
+    <div class="faq-columns">
+      <div class="faq-item">
+        <h3>Should I get a survey before buying a property I plan to extend?</h3>
+        <p>Yes, a Level 3 Building Survey is recommended, as it identifies the existing structure's condition and any issues that could complicate or add cost to your planned works.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Does a survey check whether a loft conversion has building regulations approval?</h3>
+        <p>We'll flag anything that looks unapproved or poorly executed, but formal building regulations and planning history checks are usually carried out by your solicitor through local authority searches.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What's the risk of buying a London property with an unapproved conversion?</h3>
+        <p>You could inherit costs to bring the work up to standard, or issues when you come to sell, which is why flagging this before exchange matters.</p>
+      </div>
+      <div class="faq-item" style="border-bottom:none;">
+        <h3>Can a survey help me plan renovation costs?</h3>
+        <p>Yes, our Level 3 Building Survey includes repair options and cost implications, giving you a realistic starting point for budgeting extension or renovation work.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <footer class="site-footer">
   <div class="container">

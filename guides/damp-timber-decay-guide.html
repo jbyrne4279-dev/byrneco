@@ -30,6 +30,46 @@
   "mainEntityOfPage": "https://www.byrneco-surveying.co.uk/guides/damp-timber-decay-guide.html"
 }
 </script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is damp a common problem in London's older properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, rising and penetrating damp are among the most frequent findings in Level 3 Building Surveys on London's Victorian and Edwardian terraces, largely due to ageing damp-proof courses and solid brick walls."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a mortgage valuation check for damp?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not reliably. A mortgage valuation is a brief inspection for the lender's purposes and often won't identify damp or timber decay the way a dedicated Level 2 or Level 3 survey will."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What's the difference between wet rot and dry rot?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wet rot is usually localised and linked to a specific source of moisture, while dry rot can spread further through masonry and timber even after the moisture source is removed, making it more serious to treat."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much does damp or timber treatment typically cost in London?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Costs vary widely depending on severity and the extent of the property affected, which is exactly why a survey's repair guidance and cost indication are useful before you commit to buying."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -158,6 +198,157 @@
     <a href="../contact.html" class="btn">Get Quote</a>
   </div>
 </div>
+
+<section class="alt" id="get-quote">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow">Get Started</span>
+      <h2>Ready to Book Your Survey?</h2>
+      <p>Tell us about the property and we'll come back with the right survey level within 24 hours.</p>
+    </div>
+
+    <div class="contact-wrap">
+      <div>
+        <div id="form-success" role="alert"></div>
+        <div id="form-error" role="alert"></div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <h3>Step 1: Property Details</h3>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="postcode">Postcode <span class="required">*</span></label>
+              <input type="text" id="postcode" name="postcode" placeholder="e.g. SW1A 1AA" required>
+            </div>
+            <div class="form-row">
+              <label for="property-type">Type of property <span class="required">*</span></label>
+              <select id="property-type" name="propertyType" required>
+                <option value="">- Select -</option>
+                <option value="residential">Residential</option>
+                <option value="commercial">Commercial</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="bedrooms">Number of bedrooms <span class="required">*</span></label>
+              <select id="bedrooms" name="bedrooms" required>
+                <option value="">- Select bedrooms -</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="5+">More than 5</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="survey-level">Survey level required <span class="required">*</span></label>
+              <select id="survey-level" name="surveyLevel" required>
+                <option value="">- Select survey level -</option>
+                <option value="level1">Level 1 — Condition Report</option>
+                <option value="level2">Level 2 — HomeBuyer Report</option>
+                <option value="level3">Level 3 — Building Survey</option>
+                <option value="not-sure">Not sure — please advise</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="property-value">Property value <span class="required">*</span></label>
+            <select id="property-value" name="propertyValue" required>
+              <option value="">- Select value -</option>
+              <option value="0-100000">£0 - £100,000</option>
+              <option value="100001-200000">£100,001 - £200,000</option>
+              <option value="200001-300000">£200,001 - £300,000</option>
+              <option value="300001-400000">£300,001 - £400,000</option>
+              <option value="400001-500000">£400,001 - £500,000</option>
+              <option value="500001-600000">£500,001 - £600,000</option>
+              <option value="600001-700000">£600,001 - £700,000</option>
+              <option value="700001-800000">£700,001 - £800,000</option>
+              <option value="800001-900000">£800,001 - £900,000</option>
+              <option value="900001-1000000">£900,001 - £1,000,000</option>
+              <option value="1000001-2000000">£1,000,001 - £2,000,000</option>
+              <option value="2000001-5000000">£2,000,001 - £5,000,000</option>
+              <option value="5000001+">£5,000,001 and above</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="specific-info">Specific information</label>
+            <textarea id="specific-info" name="specificInfo" placeholder="Tell us anything else about the property or your requirements (optional)"></textarea>
+          </div>
+
+          <h3>Step 2: Your Contact Details</h3>
+          <p class="form-note">Your details will only be used by Byrne &amp; Co Surveying to respond to your enquiry. Read our <a href="../privacy-policy.html">privacy policy</a>.</p>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="name">Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-row">
+              <label for="email">Email address <span class="required">*</span></label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="telephone">Telephone no. <span class="required">*</span></label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Enter 0000 if you'd rather not provide this" required>
+          </div>
+
+          <button type="submit" class="btn">Get Quote</button>
+        </form>
+      </div>
+
+      <div class="contact-info-card">
+        <h3>Need Help?</h3>
+        <div class="info-item">
+          <strong>Email</strong>
+          <a href="mailto:enquiries@byrneco-surveying.co.uk">enquiries@byrneco-surveying.co.uk</a>
+        </div>
+        <div class="info-item">
+          <strong>Coverage Area</strong>
+          <p style="color:#cfd6df; margin:0;">All London postcodes and the M25 corridor.</p>
+        </div>
+        <div class="info-item">
+          <strong>Response Time</strong>
+          <p style="color:#cfd6df; margin:0;">Within 1 working day, Mon–Fri 8am–6pm.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow">Damp &amp; Timber FAQs</span>
+      <h2>FAQs on Damp and Timber Decay in London Homes</h2>
+    </div>
+
+    <div class="faq-columns">
+      <div class="faq-item">
+        <h3>Is damp a common problem in London's older properties?</h3>
+        <p>Yes, rising and penetrating damp are among the most frequent findings in Level 3 Building Surveys on London's Victorian and Edwardian terraces, largely due to ageing damp-proof courses and solid brick walls.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Does a mortgage valuation check for damp?</h3>
+        <p>Not reliably. A mortgage valuation is a brief inspection for the lender's purposes and often won't identify damp or timber decay the way a dedicated Level 2 or Level 3 survey will.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What's the difference between wet rot and dry rot?</h3>
+        <p>Wet rot is usually localised and linked to a specific source of moisture, while dry rot can spread further through masonry and timber even after the moisture source is removed, making it more serious to treat.</p>
+      </div>
+      <div class="faq-item" style="border-bottom:none;">
+        <h3>How much does damp or timber treatment typically cost in London?</h3>
+        <p>Costs vary widely depending on severity and the extent of the property affected, which is exactly why a survey's repair guidance and cost indication are useful before you commit to buying.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <footer class="site-footer">
   <div class="container">

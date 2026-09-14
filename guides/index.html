@@ -18,6 +18,46 @@
 <meta property="og:url" content="https://www.byrneco-surveying.co.uk/guides/index.html">
 <meta property="og:site_name" content="Byrne & Co Surveying">
 <meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are these guides specific to London properties?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, every guide is written around the housing stock and risks typical of Greater London, from Victorian terraces and clay subsidence to leasehold flats and new-build snagging."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do the guides replace getting a professional survey?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No, they're designed to help you understand what a survey covers and what to expect, but they aren't a substitute for an in-person inspection by a RICS chartered surveyor."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How often are the guides updated?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "We review and update our guides regularly to reflect current RICS Home Survey Standard practice and typical London market conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you write a guide on a specific topic I'm researching?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Get in touch and let us know what you're trying to find out, we're happy to point you to the right guide or answer your question directly."
+      }
+    }
+  ]
+}
+</script>
 </head>
 <body>
 
@@ -148,6 +188,157 @@
     <a href="../contact.html" class="btn">Get Quote</a>
   </div>
 </div>
+
+<section class="alt" id="get-quote">
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow">Get Started</span>
+      <h2>Ready to Book Your Survey?</h2>
+      <p>Tell us about the property and we'll come back with the right survey level within 24 hours.</p>
+    </div>
+
+    <div class="contact-wrap">
+      <div>
+        <div id="form-success" role="alert"></div>
+        <div id="form-error" role="alert"></div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <h3>Step 1: Property Details</h3>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="postcode">Postcode <span class="required">*</span></label>
+              <input type="text" id="postcode" name="postcode" placeholder="e.g. SW1A 1AA" required>
+            </div>
+            <div class="form-row">
+              <label for="property-type">Type of property <span class="required">*</span></label>
+              <select id="property-type" name="propertyType" required>
+                <option value="">- Select -</option>
+                <option value="residential">Residential</option>
+                <option value="commercial">Commercial</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="bedrooms">Number of bedrooms <span class="required">*</span></label>
+              <select id="bedrooms" name="bedrooms" required>
+                <option value="">- Select bedrooms -</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="5+">More than 5</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="survey-level">Survey level required <span class="required">*</span></label>
+              <select id="survey-level" name="surveyLevel" required>
+                <option value="">- Select survey level -</option>
+                <option value="level1">Level 1 — Condition Report</option>
+                <option value="level2">Level 2 — HomeBuyer Report</option>
+                <option value="level3">Level 3 — Building Survey</option>
+                <option value="not-sure">Not sure — please advise</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="property-value">Property value <span class="required">*</span></label>
+            <select id="property-value" name="propertyValue" required>
+              <option value="">- Select value -</option>
+              <option value="0-100000">£0 - £100,000</option>
+              <option value="100001-200000">£100,001 - £200,000</option>
+              <option value="200001-300000">£200,001 - £300,000</option>
+              <option value="300001-400000">£300,001 - £400,000</option>
+              <option value="400001-500000">£400,001 - £500,000</option>
+              <option value="500001-600000">£500,001 - £600,000</option>
+              <option value="600001-700000">£600,001 - £700,000</option>
+              <option value="700001-800000">£700,001 - £800,000</option>
+              <option value="800001-900000">£800,001 - £900,000</option>
+              <option value="900001-1000000">£900,001 - £1,000,000</option>
+              <option value="1000001-2000000">£1,000,001 - £2,000,000</option>
+              <option value="2000001-5000000">£2,000,001 - £5,000,000</option>
+              <option value="5000001+">£5,000,001 and above</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="specific-info">Specific information</label>
+            <textarea id="specific-info" name="specificInfo" placeholder="Tell us anything else about the property or your requirements (optional)"></textarea>
+          </div>
+
+          <h3>Step 2: Your Contact Details</h3>
+          <p class="form-note">Your details will only be used by Byrne &amp; Co Surveying to respond to your enquiry. Read our <a href="../privacy-policy.html">privacy policy</a>.</p>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="name">Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-row">
+              <label for="email">Email address <span class="required">*</span></label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="telephone">Telephone no. <span class="required">*</span></label>
+            <input type="tel" id="telephone" name="telephone" placeholder="Enter 0000 if you'd rather not provide this" required>
+          </div>
+
+          <button type="submit" class="btn">Get Quote</button>
+        </form>
+      </div>
+
+      <div class="contact-info-card">
+        <h3>Need Help?</h3>
+        <div class="info-item">
+          <strong>Email</strong>
+          <a href="mailto:enquiries@byrneco-surveying.co.uk">enquiries@byrneco-surveying.co.uk</a>
+        </div>
+        <div class="info-item">
+          <strong>Coverage Area</strong>
+          <p style="color:#cfd6df; margin:0;">All London postcodes and the M25 corridor.</p>
+        </div>
+        <div class="info-item">
+          <strong>Response Time</strong>
+          <p style="color:#cfd6df; margin:0;">Within 1 working day, Mon–Fri 8am–6pm.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <div class="section-heading">
+      <span class="eyebrow">Guides FAQs</span>
+      <h2>FAQs About Our Homeowner Guides</h2>
+    </div>
+
+    <div class="faq-columns">
+      <div class="faq-item">
+        <h3>Are these guides specific to London properties?</h3>
+        <p>Yes, every guide is written around the housing stock and risks typical of Greater London, from Victorian terraces and clay subsidence to leasehold flats and new-build snagging.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do the guides replace getting a professional survey?</h3>
+        <p>No, they're designed to help you understand what a survey covers and what to expect, but they aren't a substitute for an in-person inspection by a RICS chartered surveyor.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How often are the guides updated?</h3>
+        <p>We review and update our guides regularly to reflect current RICS Home Survey Standard practice and typical London market conditions.</p>
+      </div>
+      <div class="faq-item" style="border-bottom:none;">
+        <h3>Can you write a guide on a specific topic I'm researching?</h3>
+        <p>Get in touch and let us know what you're trying to find out, we're happy to point you to the right guide or answer your question directly.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
 <footer class="site-footer">
   <div class="container">
