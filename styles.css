@@ -246,6 +246,8 @@ section.alt { background: var(--grey); }
   box-shadow: 0 2px 8px rgba(0,0,0,0.03);
 }
 
+.card.who-for { border: 2px solid var(--gold); }
+
 .card h3 { font-size: 1.2rem; }
 
 .card .price {
