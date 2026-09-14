@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Get a Free Survey Estimate | Byrne & Co Surveying</title>
+<meta name="description" content="Request a free, no-obligation Building Survey estimate from Byrne & Co Surveying. Covering all London postcodes. Response within one working day.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="index.html" class="logo">Byrne <span>&amp; Co</span> Surveying</a>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="areas-we-cover.html">Areas We Cover</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="faq.html">FAQs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-cta">
+      <a href="tel:08000147453" class="phone">0800 0147 453</a>
+      <a href="contact.html" class="btn">Get a Free Quote</a>
+      <button class="menu-toggle" aria-label="Toggle menu">&#9776;</button>
+    </div>
+  </div>
+</header>
+
+<div class="page-header">
+  <div class="container">
+    <h1>Get Your Free Building Survey Estimate</h1>
+    <p>Tell us about your property below and a RICS chartered surveyor from Byrne &amp; Co will be in touch within one working day.</p>
+  </div>
+</div>
+
+<section>
+  <div class="container">
+    <div class="contact-wrap">
+      <div>
+        <div id="form-success" role="alert"></div>
+        <div id="form-error" role="alert"></div>
+
+        <form class="contact-form" id="contact-form" novalidate>
+          <h3>Step 1: Property Details</h3>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="postcode">Postcode <span class="required">*</span></label>
+              <input type="text" id="postcode" name="postcode" placeholder="e.g. SW1A 1AA" required>
+            </div>
+            <div class="form-row">
+              <label for="property-type">Type of property <span class="required">*</span></label>
+              <select id="property-type" name="propertyType" required>
+                <option value="">- Select -</option>
+                <option value="residential">Residential</option>
+                <option value="commercial">Commercial</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="bedrooms">Number of bedrooms <span class="required">*</span></label>
+              <select id="bedrooms" name="bedrooms" required>
+                <option value="">- Select bedrooms -</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="5+">More than 5</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <label for="survey-level">Survey level required <span class="required">*</span></label>
+              <select id="survey-level" name="surveyLevel" required>
+                <option value="">- Select survey level -</option>
+                <option value="level1">Level 1 — Condition Report</option>
+                <option value="level2">Level 2 — HomeBuyer Report</option>
+                <option value="level3">Level 3 — Building Survey</option>
+                <option value="not-sure">Not sure — please advise</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <label for="property-value">Property value <span class="required">*</span></label>
+            <select id="property-value" name="propertyValue" required>
+              <option value="">- Select value -</option>
+              <option value="0-100000">£0 - £100,000</option>
+              <option value="100001-200000">£100,001 - £200,000</option>
+              <option value="200001-300000">£200,001 - £300,000</option>
+              <option value="300001-400000">£300,001 - £400,000</option>
+              <option value="400001-500000">£400,001 - £500,000</option>
+              <option value="500001-600000">£500,001 - £600,000</option>
+              <option value="600001-700000">£600,001 - £700,000</option>
+              <option value="700001-800000">£700,001 - £800,000</option>
+              <option value="800001-900000">£800,001 - £900,000</option>
+              <option value="900001-1000000">£900,001 - £1,000,000</option>
+              <option value="1000001-2000000">£1,000,001 - £2,000,000</option>
+              <option value="2000001-5000000">£2,000,001 - £5,000,000</option>
+              <option value="5000001+">£5,000,001 and above</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="specific-info">Specific information</label>
+            <textarea id="specific-info" name="specificInfo" placeholder="Tell us anything else about the property or your requirements (optional)"></textarea>
+          </div>
+
+          <h3>Step 2: Your Contact Details</h3>
+          <p class="form-note">Your details will only be used by Byrne &amp; Co Surveying to respond to your enquiry. Read our <a href="privacy-policy.html">privacy policy</a>.</p>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="name">Name <span class="required">*</span></label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-row">
+              <label for="email">Email address <span class="required">*</span></label>
+              <input type="email" id="email" name="email" required>
+            </div>
+          </div>
+
+          <div class="two-col">
+            <div class="form-row">
+              <label for="telephone">Telephone no. <span class="required">*</span></label>
+              <input type="tel" id="telephone" name="telephone" placeholder="Enter 0000 if you'd rather not provide this" required>
+            </div>
+            <div class="form-row">
+              <label for="i-am-a">I am a <span class="required">*</span></label>
+              <select id="i-am-a" name="iAmA" required>
+                <option value="">- Select -</option>
+                <option value="buyer">Property Buyer</option>
+                <option value="owner">Property Owner</option>
+                <option value="seller">Property Seller</option>
+                <option value="tenant">Tenant</option>
+                <option value="surveyor">Surveyor</option>
+                <option value="job-seeker">Job Seeker</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row checkbox-row">
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree with the <a href="terms.html" target="_blank">terms and conditions</a> <span class="required">*</span></label>
+          </div>
+
+          <button type="submit" class="btn">Get My Free Estimate</button>
+        </form>
+      </div>
+
+      <div class="contact-info-card">
+        <h3>Need Help?</h3>
+        <div class="info-item">
+          <strong>Phone</strong>
+          <a href="tel:08000147453">0800 0147 453</a>
+        </div>
+        <div class="info-item">
+          <strong>Email</strong>
+          <a href="mailto:enquiries@byrneco-surveying.co.uk">enquiries@byrneco-surveying.co.uk</a>
+        </div>
+        <div class="info-item">
+          <strong>Coverage Area</strong>
+          <p style="color:#cfd6df; margin:0;">All London postcodes and the M25 corridor.</p>
+        </div>
+        <div class="info-item">
+          <strong>Response Time</strong>
+          <p style="color:#cfd6df; margin:0;">Within 1 working day, Mon–Fri 8am–6pm.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <h4>Byrne &amp; Co Surveying</h4>
+        <p>RICS chartered building surveyors covering London and the M25. Specialists in Level 1, 2 and 3 residential surveys.</p>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="areas-we-cover.html">Areas We Cover</a></li>
+          <li><a href="faq.html">FAQs</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><a href="tel:08000147453">0800 0147 453</a></li>
+          <li><a href="mailto:enquiries@byrneco-surveying.co.uk">enquiries@byrneco-surveying.co.uk</a></li>
+          <li><a href="contact.html">Contact Form</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms &amp; Conditions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2026 Byrne &amp; Co Surveying. All rights reserved. Registered in England &amp; Wales.
+    </div>
+  </div>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
