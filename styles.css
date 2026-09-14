@@ -497,6 +497,15 @@ table.compare-table th, table.compare-table td {
 table.compare-table th { background: var(--navy); color: var(--white); font-family: 'Helvetica Neue', Arial, sans-serif; }
 table.compare-table tr:nth-child(even) { background: var(--grey); }
 
+.map-embed {
+  margin: 26px 0;
+  border-radius: var(--radius);
+  overflow: hidden;
+  border: 1px solid #e3e6ea;
+  box-shadow: 0 6px 20px rgba(36, 68, 94, 0.08);
+}
+.map-embed iframe { display: block; width: 100%; }
+
 .area-tags { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 20px; }
 .area-tags span {
   background: var(--white);
