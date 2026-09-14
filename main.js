@@ -73,7 +73,19 @@ document.addEventListener('DOMContentLoaded', function () {
   var path = window.location.pathname.split('/').pop() || 'index.html';
   links.forEach(function (link) {
     if (link.getAttribute('href') === path) {
-      link.style.color = '#b6914a';
+      link.style.color = '#2f9e6e';
     }
   });
+
+  // Pre-select survey level from a ?survey= query param (e.g. links from the homepage level cards)
+  var surveySelect = document.getElementById('survey-level');
+  if (surveySelect) {
+    var survey = new URLSearchParams(window.location.search).get('survey');
+    var hasMatch = Array.prototype.some.call(surveySelect.options, function (opt) {
+      return opt.value === survey;
+    });
+    if (survey && hasMatch) {
+      surveySelect.value = survey;
+    }
+  }
 });
