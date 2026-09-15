@@ -47,24 +47,31 @@ document.addEventListener('DOMContentLoaded', function () {
         return;
       }
 
-      // Store submission locally (no backend configured yet).
-      try {
-        var submissions = JSON.parse(localStorage.getItem('byrneco_enquiries') || '[]');
-        var data = {};
-        new FormData(form).forEach(function (value, key) {
-          data[key] = value;
-        });
-        data.submittedAt = new Date().toISOString();
-        submissions.push(data);
-        localStorage.setItem('byrneco_enquiries', JSON.stringify(submissions));
-      } catch (err) {
-        // localStorage unavailable — ignore, submission still "succeeds" visually
-      }
+      var submitBtn = form.querySelector('button[type="submit"]');
+      if (submitBtn) submitBtn.disabled = true;
 
-      successBox.textContent = 'Thank you — your enquiry has been received. A member of the Byrne & Co team will contact you within one working day.';
-      successBox.style.display = 'block';
-      successBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      form.reset();
+      fetch(form.action, {
+        method: 'POST',
+        body: new FormData(form),
+        headers: { 'Accept': 'application/json' }
+      }).then(function (response) {
+        if (response.ok) {
+          successBox.textContent = 'Thank you — your enquiry has been received. A member of the Byrne & Co team will contact you within one working day.';
+          successBox.style.display = 'block';
+          successBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          form.reset();
+        } else {
+          errorBox.textContent = 'Sorry, something went wrong sending your enquiry. Please try again or email us directly.';
+          errorBox.style.display = 'block';
+          errorBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      }).catch(function () {
+        errorBox.textContent = 'Sorry, something went wrong sending your enquiry. Please try again or email us directly.';
+        errorBox.style.display = 'block';
+        errorBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }).finally(function () {
+        if (submitBtn) submitBtn.disabled = false;
+      });
     });
   }
 
